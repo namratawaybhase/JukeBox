@@ -25,6 +25,7 @@ public class Jukebox {
       this.creditCard = creditCard;
    }
    public boolean isValidCreditCard(){
+        //System.out.println("Checking if credit card is valid");
       if(creditCard>0)
          return true;
       else
